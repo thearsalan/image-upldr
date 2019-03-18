@@ -1,0 +1,33 @@
+{
+  "name": "image-upldr",
+  "version": "1.0.4",
+  "description": "This package allows you to compress images on the frontend and upload the Base64 equivalent",
+  "main": "./src/upldr.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel ./src -d ./lib",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thearsalan/image-upldr.git"
+  },
+  "keywords": [
+    "javascript",
+    "upload",
+    "Base64",
+    "image",
+    "compression",
+    "frontend"
+  ],
+  "author": "Arsalan Yarveisi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thearsalan/image-upldr/issues"
+  },
+  "homepage": "https://github.com/thearsalan/image-upldr#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}

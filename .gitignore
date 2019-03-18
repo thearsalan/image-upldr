@@ -1,0 +1,7 @@
+# leave everything else untouched
+.idea/
+.vscode/
+lib/
+node_modules/
+npm-debug.log
+~
