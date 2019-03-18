@@ -54,7 +54,7 @@ The resulted Base64 string is attainable in the `value` of `target-element`.
 </label>
 
 <input id="source-element" type="file" accept="image/jpg, image/jpeg, image/png" 
-onchange="compressBeforeUpload(this, "destination-element", "r", 30);"/>
+onchange="compressBeforeUpload(this, "target-element", "r", 30);"/>
 
 <input hidden id="target-element" title="target-element"/>
 ```
